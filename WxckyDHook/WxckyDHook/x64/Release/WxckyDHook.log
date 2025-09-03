@@ -1,0 +1,57 @@
+﻿  dllmain.cpp
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244: 'return': conversion from 'UINT64' to '_CHAR_TYPE_', possible loss of data
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:         with
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:         [
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:             _CHAR_TYPE_=CHAR
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+      C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\imports.h(16,25):
+      while evaluating constexpr function 'XorStr'
+      C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\imports.h(16,25):
+          see reference to class template instantiation '_XORSTR_<CHAR,15>' being compiled
+          C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(92,15):
+          while compiling class template member function '_CHAR_TYPE_ _XORSTR_<_CHAR_TYPE_,15>::CRYPT_CHAR(_CHAR_TYPE_,SIZE_T)'
+          with
+          [
+              _CHAR_TYPE_=CHAR
+          ]
+              C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(105,16):
+              see the first reference to '_XORSTR_<CHAR,15>::CRYPT_CHAR' in '_XORSTR_<CHAR,15>::_XORSTR_'
+              C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(71,14):
+              see the first reference to '_XORSTR_<CHAR,15>::_XORSTR_' in '_XORSTR_<CHAR,15>::_XORSTR_'
+              C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(118,2):
+              see the first reference to '_XORSTR_<CHAR,15>::_XORSTR_' in 'XorStr'
+  
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244: 'return': conversion from 'UINT64' to '_CHAR_TYPE_', possible loss of data
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:         with
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:         [
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:             _CHAR_TYPE_=WCHAR
+C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+      C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\imports.h(17,27):
+      while evaluating constexpr function 'XorStr'
+      C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(97,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\imports.h(17,27):
+          see reference to class template instantiation '_XORSTR_<WCHAR,15>' being compiled
+          C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(92,15):
+          while compiling class template member function '_CHAR_TYPE_ _XORSTR_<_CHAR_TYPE_,15>::CRYPT_CHAR(_CHAR_TYPE_,SIZE_T)'
+          with
+          [
+              _CHAR_TYPE_=WCHAR
+          ]
+              C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(105,16):
+              see the first reference to '_XORSTR_<WCHAR,15>::CRYPT_CHAR' in '_XORSTR_<WCHAR,15>::_XORSTR_'
+              C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(71,14):
+              see the first reference to '_XORSTR_<WCHAR,15>::_XORSTR_' in '_XORSTR_<WCHAR,15>::_XORSTR_'
+              C:\Users\naumo\source\repos\WxckyDHook\WxckyDHook\misc\xor.hpp(127,2):
+              see the first reference to '_XORSTR_<WCHAR,15>::_XORSTR_' in 'XorStr'
+  
+  Generating code
+  117 of 610 functions (19.2%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  WxckyDHook.vcxproj -> C:\Users\naumo\source\repos\WxckyDHook\x64\Release\WxckyDHook.dll
